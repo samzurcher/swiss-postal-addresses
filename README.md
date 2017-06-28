@@ -15,9 +15,8 @@ by the [Swiss Post](http://www.post.ch).
 
 ## Generating Addresses based on New Version of the Data from the Swiss Post
 1. Login to the Swiss Post Website (or create a new user account first).
-2. [Download](https://service.post.ch/zopa/dlc/app/?service=dlc-web&inMobileApp=false&inIframe=false&lang=de#/main) the  
-   current *Address- und Geodaten*. Make sure to get both the data as well as
-   the current explanations (*Strassenverzeichnis_mit_Sortierdaten_DE*).
+2. [Download](https://service.post.ch/zopa/dlc/app/?service=dlc-web&inMobileApp=false&inIframe=false&lang=de#/main)
+the current *Address- und Geodaten*. Make sure to get both the data as well as the current explanations (*Strassenverzeichnis_mit_Sortierdaten_DE*).
 3. Unzip the csv file, rename it to input.csv and copy it to this folder.
 4. Run `npm install` to make sure you have all necessary dependencies.
 5. Delete the existing output file with `rm swiss-addresses.csv`.
